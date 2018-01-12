@@ -25,8 +25,6 @@ class ToDoListViewController: UITableViewController {
         super.viewDidLoad()
         
         print(FileManager.default.urls(for: .documentDirectory, in: .userDomainMask))
-        
-
     }
     
     // MARK: TableViewData Source
